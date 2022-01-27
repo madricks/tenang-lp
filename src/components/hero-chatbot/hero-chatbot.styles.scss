@@ -1,0 +1,38 @@
+.hero-chatbot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &-container {
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 14rem 0 10rem;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 6rem;
+        font-weight: 800;
+      }
+
+      .sub-title {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 2.1rem;
+      }
+
+      .soon {
+        color: red;
+        font-weight: 700;
+      }
+    }
+  }
+}

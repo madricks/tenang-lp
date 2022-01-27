@@ -1,0 +1,31 @@
+.company-fact {
+  padding: 10rem 0;
+  text-align: center;
+
+  .title {
+    font-weight: 800;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+  }
+
+  .graph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .person {
+      font-size: 16rem;
+      font-weight: 800;
+      margin: 0px -47px;
+
+      &.active {
+        color: #5393f5;
+      }
+    }
+  }
+
+  .content {
+    text-align: center;
+  }
+}

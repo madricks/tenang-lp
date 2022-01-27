@@ -1,0 +1,42 @@
+.about-chatbot {
+  padding: 10rem 0;
+  background-color: #f7f6fa;
+
+  .logo-text {
+    width: 14rem;
+  }
+
+  .subtitle {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+
+  .square {
+    position: absolute;
+    width: 16rem;
+    height: 16rem;
+    z-index: -1;
+
+    &.bg-dot {
+      opacity: 0.4;
+      background-image: radial-gradient(#3f78e0 2px, transparent 2.5px);
+      background-size: 1.5rem 1.5rem;
+    }
+  }
+
+  .image {
+    border-radius: 10px;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 3.6rem;
+    font-weight: 800;
+  }
+
+  .soon {
+    color: red;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,38 @@
+.personal-fact {
+  padding: 15rem 0;
+
+  .logo-text {
+    width: 14rem;
+  }
+
+  .subtitle {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+
+  .question-wrapper {
+    .question {
+      padding: 2rem;
+      color: white;
+      font-weight: 700;
+      border-radius: 1rem;
+      background-color: #5838fc;
+    }
+  }
+
+  .image {
+    border-radius: 10px;
+  }
+
+  .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 3.6rem;
+    font-weight: 800;
+  }
+
+  .soon {
+    color: red;
+    font-weight: 700;
+  }
+}
